@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello Snake</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class="wrap">
+            <h1>Snake</h1>
+            <p class="score">Score: <span id="score_value">0</span></p>
+        </header>
+        <canvas class="wrap" id="snake" width="800" height="800" tabindex="1"></canvas>
+        <!-- Game Over Screen -->
+        <div id="gameover">
+            <h2>Game Over</h2>
+            <p>press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin !!</p>
+            <a id="newgame_gameover">Play again</a>
+
+        </div>
+        <!-- Main Menu Screen -->
+        <div id="menu">
+            <h2>Snake</h2>
+            <a id="newgame_menu">new game</a>
+        </div>
+	<script type="text/javascript" src="snake.js"></script>	
+    </body>    
+</html>
